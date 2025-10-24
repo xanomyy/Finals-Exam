@@ -25,6 +25,6 @@ public class Priest extends Character {
         int heal = (int)(Math.random() * 40 + 10);
         hp += heal;
         if (hp > maxHp) hp = maxHp;
-        System.out.println(name + " casts Prayer of Healing and restores " + heal + " HP!");
+        System.out.println(name + " 𝐜𝐚𝐬𝐭𝐬 𝐏𝐫𝐚𝐲𝐞𝐫 𝐨𝐟 𝐇𝐞𝐚𝐥𝐢𝐧𝐠 𝐚𝐧𝐝 𝐫𝐞𝐬𝐭𝐨𝐫𝐞𝐬 " + heal + " HP!");
     }
 }
