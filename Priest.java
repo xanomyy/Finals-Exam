@@ -6,19 +6,19 @@ public class Priest extends Character {
     @Override
     public void primarySkill(Character target) {
         if (mp < 25) {
-            System.out.println("Not enough MP 😞!");
+            System.out.println("𝐍𝐨𝐭 𝐞𝐧𝐨𝐮𝐠𝐡 𝐌𝐏 😞!");
             return;
         }
         mp -= 25;
         int damage = (int)(Math.random() * 20 + 10);
         target.hp -= damage;
-        System.out.println(name + " uses Smite and deals " + damage + " holy damage 🙏!");
+        System.out.println(name + " uses Smite and deals " + damage + " 𝐡𝐨𝐥𝐲 𝐝𝐚𝐦𝐚𝐠𝐞 🙏!");
     }
 
     @Override
     public void secondarySkill(Character target) {
         if (mp < 40) {
-            System.out.println("Not enough MP 😞!");
+            System.out.println("𝐍𝐨𝐭 𝐞𝐧𝐨𝐮𝐠𝐡 𝐌𝐏 😞!");
             return;
         }
         mp -= 40;
